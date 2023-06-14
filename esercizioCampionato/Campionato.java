@@ -41,11 +41,16 @@ public class Campionato {
 		for (Partita partita : partite) {
 
 			if (partita.getSquadraCasa().getNomeSquadra().equals(squadra.getNomeSquadra()))
-				;
+
 			{
 				System.out.println(squadra.getNomeSquadra() + " - " + partita.getSquadraTrasferta().getNomeSquadra()
-						+ " questa partita e giocata in casa");
+						+ " --> " + squadra.getNomeSquadra() + " ha giocato in casa in questa partita");
 
+			} else if (partita.getSquadraTrasferta().getNomeSquadra().equals(squadra.getNomeSquadra()))
+
+			{
+				System.out.println(partita.getSquadraCasa().getNomeSquadra() + " - " + squadra.getNomeSquadra() 
+						+ " --> " + squadra.getNomeSquadra() + " ha giocato in trasferta in questa partita");
 			}
 		}
 	}

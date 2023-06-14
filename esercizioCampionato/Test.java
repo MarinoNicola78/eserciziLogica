@@ -32,7 +32,7 @@ public class Test {
 		campionato.getPartite().add(partita1);
 		campionato.getPartite().add(partita2);
 
-		campionato.getInfoSquadra(squadra1);
+		campionato.getInfoSquadra(squadra4);
 
 	}
 
