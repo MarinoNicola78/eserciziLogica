@@ -2,12 +2,19 @@
 
 package array;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class SommaPariDispari {
 	public static void main(String[] args) {
 
 		int sommaPari = 0;
 		int sommaDispari = 0;
-		int[] stampaNum = { 2, 2, 6, 6, 12, 12, 23, 23, 10, 1 };
+		int[] stampaNum = { 2, 9, 8, 6, 12, 12, 23, 23, 10, 1 };
+		
+		// metedo per oprdinare un Array prima di mandarlo a video
+		Arrays.sort(stampaNum);
+		System.out.println(Arrays.toString(stampaNum));
 
 		for (int i = 0; i < stampaNum.length; i++) {
 			if (i % 2 == 0) {
