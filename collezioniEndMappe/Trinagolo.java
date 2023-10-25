@@ -1,4 +1,4 @@
-package array;
+package collezioniEndMappe;
 
 public class Trinagolo {
 

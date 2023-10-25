@@ -1,6 +1,6 @@
 //esercizi pdf "esercizi1" traccia 5.1
 
-package array;
+package collezioniEndMappe;
 
 public class StampaZigZag {
 

@@ -1,6 +1,6 @@
 //esercizi pdf "esercizi1" traccia 5.2
 
-package array;
+package collezioniEndMappe;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
