@@ -8,6 +8,9 @@ public class ContinuaFino {
 
 	public static void main(String[] args) {
 		
+		
+		//System.gc();
+		
 		Scanner sc = new Scanner(System.in);
 		
 		boolean numCompliance;
