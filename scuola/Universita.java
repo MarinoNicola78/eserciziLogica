@@ -43,5 +43,20 @@ public class Universita {
 		}
 		return tmp;
 	}
+	
+	// metodo che restituisca i cognomi dei docenti che hanno età minima
+	public String getCognomiConEtaMinima(Docente[] docenti) {
+		
+		int tmp = docenti[0].getEta();
+		String docenteEtaMinima = docenti[0].getCognome(); 
+		for (int i = 0; i < docenti.length; i++) {
+			if (tmp > docenti[i].getEta()) {
+				tmp = docenti[i].getEta();
+				docenteEtaMinima = docenti[i].getCognome();
+			}
+			 
+		}
+		return docenteEtaMinima;
+	}
 
 }
