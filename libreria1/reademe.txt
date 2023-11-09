@@ -1,0 +1,9 @@
+Crea una classe Libro con i seguenti attributi: titolo, autore, anno di pubblicazione 
+e numero di copie disponibili. 
+Aggiungi un metodo per stampare le informazioni del libro.
+
+Successivamente, crea una classe Libreria che contiene un array di oggetti Libro. 
+La libreria dovrebbe avere metodi per aggiungere un nuovo libro, 
+visualizzare l'elenco dei libri e permettere a una persona di prendere 
+in prestito un libro (decrementando il numero di copie disponibili). 
+Assicurati di gestire correttamente la disponibilità dei libri.
