@@ -1,0 +1,17 @@
+Esercizio: Gestione di una Palestra
+
+Crea un programma Java per gestire una palestra. Dovrai creare le seguenti classi:
+
+Classe Cliente:
+
+Attributi: nome, età, tipo di abbonamento (es. mensile, annuale).
+Metodi: calcolaCostoAbbonamento(), restituisciInformazioni().
+Classe Palestra:
+
+Attributi: un array di oggetti Cliente.
+Metodi: aggiungiCliente(), calcolaCostiTotali(), stampaClienti().
+Il metodo calcolaCostoAbbonamento() nella classe Cliente dovrebbe calcolare il costo dell'abbonamento in base all'età e al tipo di abbonamento.
+
+Il metodo calcolaCostiTotali() nella classe Palestra dovrebbe calcolare e stampare i costi totali di tutti gli abbonamenti dei clienti.
+
+Il metodo stampaClienti() nella classe Palestra dovrebbe stampare le informazioni di tutti i clienti della palestra.

@@ -9,8 +9,8 @@ public class UnisciArray {
 	public static void main(String[] args) {
 
 		int[] array1 = { 1, 3, 5, 7, 9 };
-		//int[] array2 = { 89, 32, 90, 80, 100 };
-		int[] array2 = { 2, 4, 6, 8, 10 };
+		// int[] array2 = { 89, 32, 90, 80, 100 };
+		int[] array2 = { 2, 4, 6 };
 		int[] array3 = new int[(array1.length + array2.length)];
 
 		System.out.println("Array 1: " + Arrays.toString(array1));
@@ -25,8 +25,6 @@ public class UnisciArray {
 		}
 		System.out.println("size Array 3: " + array3.length);
 		System.out.println("Array 3: " + Arrays.toString(array3));
-			
-		}
+
 	}
-
-
+}
