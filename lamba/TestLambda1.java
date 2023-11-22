@@ -2,7 +2,7 @@ package lamba;
 
 import java.util.Comparator;
 
-public class TestLamba {
+public class TestLambda1 {
 
 	public static void main(String[] args) {
 
