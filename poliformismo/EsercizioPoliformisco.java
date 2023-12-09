@@ -4,7 +4,7 @@ public class EsercizioPoliformisco {
 
 	private static void getTipo(Object object) {
 
-		// controllo del tipo di opggetto tramite "instanceof"
+		// controllo del tipo di oggetto tramite "instanceof"
 		if (object instanceof String) {
 			System.out.println("oggetto: " + object + " e di tipo Stringa");
 		} else if (object instanceof Integer) {
